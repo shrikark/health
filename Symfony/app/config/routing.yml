@@ -1,0 +1,17 @@
+healthlife_user:
+    resource: "@healthlifeUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing.xml"
+    prefix:   /
+
+healthlife_test:
+    resource: "@healthlifeTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# app/config/routing.yml
+acme_website:
+  resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+  prefix: /
+  
