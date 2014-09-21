@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>HealthCondition list</h1>
+        <ul>
+        {% for key, entity in entities %}
+        <li>
+            {{ key }}
+            <ul>
+                {% for key, symptom in entity %}
+                    <li>{{ symptom }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endblock %}

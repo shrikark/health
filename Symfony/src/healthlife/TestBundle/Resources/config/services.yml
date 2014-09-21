@@ -1,0 +1,7 @@
+parameters:
+#    healthlife_test.example.class: healthlife\TestBundle\Example
+
+services:
+#    healthlife_test.example:
+#        class: %healthlife_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
